@@ -654,6 +654,18 @@ a {
     color: #BFBFBF!important;
 }
 
+.menu{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #797676!important;
+}
+
+.text-center{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #797676!important; 
+}
+
 .container {
     max-width: 1000px;
 }
