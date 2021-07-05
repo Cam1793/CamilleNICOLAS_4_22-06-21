@@ -13,11 +13,13 @@
 		<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 		
 		
-		<script async src="./js/jquery-3.6.0.js"></script>
-		<script async src="./js/bootstrap.js"></script>
-		<script async src="./js/bootstrap.bundle.js"></script>
-		<script async src="./js/bootstrap.bundle.min.js" defer></script>
-		<script async src="./js/bootstrap.min.js"></script>
+		<script src="./js/jquery-2.1.0.js"></script>
+		<script src="./js/bootstrap.js"></script>
+		<script src="./js/blocs.js"></script>
+		<script src="./js/formHandler.js" defer></script>
+		<script src="./js/gmaps.js"></script>
+		<script src="./js/jqBootstrapValidation.js"></script>
+		<script src="./js/jquery.touchSwipe.js"></script>
 
 		<title>La Chouette Agence</title>
 
@@ -34,25 +36,24 @@
 				<!-- bloc-0 -->
 				<header class="bloc bgc-white l-bloc " id="bloc-0">
 					<div class="container bloc-sm">
-
-						<nav class="navbar row">
-							<div class="navbar-header">
+						<nav class="navbar row" role="navigation" aria-label="Main menu">
+							<div class="navbar-header" role="navigation" aria-label="User menu">
 								<div class="keywords" style="visibility: hidden;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
 								<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.webp" alt="paris web design logo agence web meilleure agence" height="40" /></a>
 								<div class="keywords" style="visibility: hidden;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
-								<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+								<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" role="complementary">
 									<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 								</button>
 							</div>
 							<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 								<ul class="site-navigation nav navbar-nav">
 									<li>
-										<a class="menu" href="index.html">Accueil</a>
+										<a class="menu" href="index.html" role="link">Accueil</a>
 									</li>
 									<li>
 									</li>
 									<li>
-										<a class="menu" href="page2.html">page2 &gt;</a>
+										<a class="menu" href="page2.html" role="link">page2 &gt;</a>
 									</li>
 								</ul>
 							</div>
@@ -62,9 +63,9 @@
 				<!-- bloc-0 END -->
 
 				<!--Main-->
-				<main>
+				<main role="main">
 					<!-- bloc-1-presentation -->
-					<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
+					<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero" aria-label="banner">
 						<div class="container bloc-lg">
 							<div class="row tight-width-whitespace">
 								<div class="col-sm-12">
@@ -72,7 +73,7 @@
 									<h1 class="text-center hero-bloc-text tc-white">
 										La Chouette Agence
 									</h1>
-									<div class="text-center">
+									<div class="text-center" role="button" aria-pressed="true">
 										<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" alt="La chouette agence, agence web paris, création logo paris, page2" id="cta-hero">Contact</a>
 									</div>
 								</div>
@@ -86,7 +87,7 @@
 							<div class="container bloc-md">
 								<div class="row">
 									<div class="col-sm-12 text-center">
-										<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title.png" />
+										<img alt="agence web, agence web lyon, web design lyon, stratégie web" src="img/title.png" />
 									</div>
 								</div>
 								<div class="row voffset-lg med-width-whitespace">
@@ -152,7 +153,7 @@
 							<!-- bloc-3-what-i-do END -->
 
 								<!-- bloc-4-portfolio -->
-								<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
+								<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 									<div class="container bloc-lg">
 										<div class="row">
 											<div class="col-sm-12 text-center">
@@ -161,7 +162,7 @@
 										</div>
 										<div class="row tight-width-whitespace portfolio-row">
 											<div class="col-sm-6">
-												<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.webp" alt="paris web design logo agence web meilleure agence et refonte site web journal" class="img-responsive portfolio-thumb" /></a>
+												<a href="#" data-lightbox="img/1.webp" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.webp" alt="paris web design logo agence web meilleure agence et refonte site web journal" class="img-responsive portfolio-thumb" /></a>
 												<h3 class="mg-md text-center">
 													Refonte d'un site web pour un journal local
 												</h3>
@@ -170,7 +171,7 @@
 												</p>
 											</div>
 											<div class="col-sm-6">
-												<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.webp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes" /></a>
+												<a href="#" data-lightbox="img/2.webp" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.webp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes" /></a>
 												<h3 class="mg-md text-center">
 													Création d'un site web pour photographes
 												</h3>
@@ -181,7 +182,7 @@
 										</div>
 										<div class="row tight-width-whitespace portfolio-row">
 											<div class="col-sm-6">
-												<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.webp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur"/></a>
+												<a href="#" data-lightbox="img/3.webp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.webp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur"/></a>
 												<h3 class="mg-md text-center">
 													Création d'un site internet pour un voyageur
 												</h3>
@@ -190,7 +191,7 @@
 												</p>
 											</div>
 											<div class="col-sm-6">
-												<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.webp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage" /></a>
+												<a href="#" data-lightbox="img/4.webp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.webp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage" /></a>
 												<h3 class="mg-md text-center">
 													Conception d'un site pour une agence de mariage
 												</h3>
@@ -200,7 +201,7 @@
 											</div>
 										</div>
 									</div>
-								</section>
+								</div>
 								<!-- bloc-4-portfolio END -->
 
 									<!-- bloc-5-cta -->
@@ -210,7 +211,7 @@
 												<h2 class="mg-md text-center tc-white">
 													Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 												</h2>
-												<div class="col-sm-12 text-center">
+												<div class="col-sm-12 text-center" role="button" aria-pressed="true">
 													<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
 												</div>
 											</div>
@@ -231,22 +232,22 @@
 								<div class="row row-no-gutters social">
 									<div class="col-sm-3">
 										<div class="text-center">
-											<a class="social" href="index.html" title="Twitter"><span class="fa fa-twitter icon-md"></span></a>
+											<a class="social" href="index.html" title="Twitter" role="link"><span class="fa fa-twitter icon-md"></span></a>
 										</div>
 									</div>
 									<div class="col-sm-3">
 										<div class="text-center">
-											<a class="social" href="index.html" title="Facebook"><span class="fa fa-facebook icon-md"></span></a>
+											<a class="social" href="index.html" title="Facebook" role="link"><span class="fa fa-facebook icon-md"></span></a>
 										</div>
 									</div>
 									<div class="col-sm-3">
 										<div class="text-center">
-											<a class="social" href="index.html" title="Dribbble"><span class="fa fa-dribbble icon-md"></span></a>
+											<a class="social" href="index.html" title="Dribbble" role="link"><span class="fa fa-dribbble icon-md"></span></a>
 										</div>
 									</div>
 									<div class="col-sm-3">
 										<div class="text-center">
-											<a class="social" href="index.html" title="Instagram"><span class="fa fa-instagram icon-md"></span></a>
+											<a class="social" href="index.html" title="Instagram" role="link"><span class="fa fa-instagram icon-md"></span></a>
 										</div>
 									</div>
 									<div class="keywords" style="visibility: hidden;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
@@ -255,38 +256,38 @@
 									<div class="col-sm-4">
 										Partenaires
 											<ul>
-												<li><a class="a_footer" href="voiture.com">voiture.com</a></li>
-												<li><a class="a_footer" href="pizza.com">pizza.com</a></li>
-												<li><a class="a_footer" href="matoiture.com">matoiture.com</a></li>
-												<li><a class="a_footer" href="immobilierseo.com">immobilierseo.com</a></li>
+												<li><a class="a_footer" href="voiture.com" role="link">voiture.com</a></li>
+												<li><a class="a_footer" href="pizza.com" role="link">pizza.com</a></li>
+												<li><a class="a_footer" href="matoiture.com" role="link">matoiture.com</a></li>
+												<li><a class="a_footer" href="immobilierseo.com" role="link">immobilierseo.com</a></li>
 											</ul>		
 									</div>
 									<div class="col-sm-4">
 										Annuaires liste 1
 										<ul>
-											<li><a class="a_footer" href="annuaireagence.com">annuaireagence.com</a></li>
-											<li><a class="a_footer" href="annuaireseo.com">annuaireseo.com</a></li>
-											<li><a class="a_footer" href="annuairemarketing.com">annuairemarketing.com</a></li>
-											<li><a class="a_footer" href="123seoture.com">123seo.com</a></li>
-											<li><a class="a_footer" href="123site.com">123site.com</a></li>
-											<li><a class="a_footer" href="annuairewordpress.com">annuairewordpress.com</a></li>
-											<li><a class="a_footer" href="listeagence.com">listeagence.com</a></li>
-											<li><a class="a_footer" href="meilleuresagencesparis.com">meilleuresagencesparis.com</a></li>
-											<li><a class="a_footer" href="listeseo.com">listeseo.com</a></li>
+											<li><a class="a_footer" href="annuaireagence.com" role="link">annuaireagence.com</a></li>
+											<li><a class="a_footer" href="annuaireseo.com" role="link">annuaireseo.com</a></li>
+											<li><a class="a_footer" href="annuairemarketing.com" role="link">annuairemarketing.com</a></li>
+											<li><a class="a_footer" href="123seoture.com" role="link">123seo.com</a></li>
+											<li><a class="a_footer" href="123site.com" role="link">123site.com</a></li>
+											<li><a class="a_footer" href="annuairewordpress.com" role="link">annuairewordpress.com</a></li>
+											<li><a class="a_footer" href="listeagence.com" role="link">listeagence.com</a></li>
+											<li><a class="a_footer" href="meilleuresagencesparis.com" role="link">meilleuresagencesparis.com</a></li>
+											<li><a class="a_footer" href="listeseo.com" role="link">listeseo.com</a></li>
 										</ul>
 									</div>
 									<div class="col-sm-4">
 										Annuaires liste 2
 										<ul>
-											<li><a class="a_footer" href="betterseo.com">betterseo.com</a></li>
-											<li><a class="a_footer" href="ameliorerseo.com">ameliorerseo.com</a></li>
-											<li><a class="a_footer" href="seojuicelien.com">seojuicelien.com</a></li>
-											<li><a class="a_footer" href="meilleursliens.com">meilleursliens.com</a></li>
-											<li><a class="a_footer" href="liensagogo.com">liensagogo.com</a></li>
-											<li><a class="a_footer" href="backlink.com">backlink.com</a></li>
-											<li><a class="a_footer" href="linkjuiceannuaire.com">linkjuiceannuaire.com</a></li>
-											<li><a class="a_footer" href="remontersurgoogle.com">remontersurgoogle.com</a></li>
-											<li><a class="a_footer" href="vraiseofiable.com">vraiseofiable.com</a></li>
+											<li><a class="a_footer" href="betterseo.com" role="link">betterseo.com</a></li>
+											<li><a class="a_footer" href="ameliorerseo.com" role="link">ameliorerseo.com</a></li>
+											<li><a class="a_footer" href="seojuicelien.com" role="link">seojuicelien.com</a></li>
+											<li><a class="a_footer" href="meilleursliens.com" role="link">meilleursliens.com</a></li>
+											<li><a class="a_footer" href="liensagogo.com" role="link">liensagogo.com</a></li>
+											<li><a class="a_footer" href="backlink.com" role="link">backlink.com</a></li>
+											<li><a class="a_footer" href="linkjuiceannuaire.com" role="link">linkjuiceannuaire.com</a></li>
+											<li><a class="a_footer" href="remontersurgoogle.com" role="link">remontersurgoogle.com</a></li>
+											<li><a class="a_footer" href="vraiseofiable.com" role="link">vraiseofiable.com</a></li>
 										</ul>
 									</div>
 								</div>

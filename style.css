@@ -366,6 +366,10 @@ a:hover {
     z-index: 2;
 }
 
+.col-sm-6{
+    float: none;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -763,6 +767,7 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    display: flex;
 }
 
 .avatar {
