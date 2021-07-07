@@ -1073,4 +1073,35 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    .col-sm-6{
+        width: 50%;
+    }
+}
+
+@media (max-width: 515px){
+    .img_media{
+        width: 100%;
+    }
+}
+
+@media (max-width: 656px){
+    .portfolio-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-sm-6{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .portfolio-thumb{
+        width: 100%;
+    }
+
+    .text-center{
+        padding-bottom: 20px;
+    }
 }
