@@ -767,6 +767,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 500px;
+    height: 250px;
 }
 
 .portfolio-row {
@@ -857,6 +859,11 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+.img_media{
+    width: 70%;
+    height: 50%;
 }
 
 @media (max-width: 1024px) {
@@ -1060,12 +1067,20 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+    .text-center{
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .text-center{
+        font-size: 15px;
     }
 }
 
@@ -1076,6 +1091,15 @@ h4 {
 
     .col-sm-6{
         width: 50%;
+    }
+
+    .text-center{
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .img_media{
+        width: 70%;
     }
 }
 
@@ -1095,13 +1119,17 @@ h4 {
     .col-sm-6{
         width: 100%;
         padding-bottom: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
     .portfolio-thumb{
-        width: 100%;
+        width: 250px;
+        height: 100%;   
     }
 
-    .text-center{
-        padding-bottom: 20px;
+    .img_media{
+        width: 90%;
     }
 }
