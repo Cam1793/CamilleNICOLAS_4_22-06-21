@@ -866,6 +866,11 @@ h4 {
     height: 50%;
 }
 
+.img_media_1{
+    width: 50%;
+    height: 30%;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
