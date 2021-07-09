@@ -1,168 +1,212 @@
 <!doctype html>
-<html lang="Default">
-<head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-    
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="seo, google, site web, site internet, agence design lyon, agence design, chouette agence, web design, stratégie, illustrations, aide pour entreprises, équipe design">
+		<meta name="description" content="Merci de laisser vos coordonnées afin que l'on puisse vous recontacter au plus vite !">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+		<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+		
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+		
+		
+		<script src="./js/jquery-2.1.0.js"></script>
+		<script src="./js/bootstrap.js"></script>
+		<script src="./js/blocs.js"></script>
+		<script src="./js/formHandler.js" defer></script>
+		<script src="./js/gmaps.js"></script>
+		<script src="./js/jqBootstrapValidation.js"></script>
+		<script src="./js/jquery.touchSwipe.js"></script>
+
+		<title>La Chouette Agence</title>
+
+		
+	<!-- Analytics -->
 	
-    
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
-    <title>page2</title>
-
-    
-<!-- Analytics -->
- 
-<!-- Analytics END -->
-    
-</head>
-<body>
-<!-- Principal conteneur -->
-<div class="page-container">
-    
-<!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
-	<div class="container bloc-sm">
-		<nav class="navbar row">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Accueil</a>
-					</li>
-					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2 &gt;</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
-</div>
-<!-- bloc-0 END -->
-
-<!-- bloc-6 -->
-<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text tc-white">
-					Parlons web design !
-				</h1>
-				<p class="text-center mg-lg tc-white tight-width-whitespace">
-					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-6 END -->
-
-<!-- bloc-7 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
+	<!-- Analytics END -->
+		
+	</head>
+		<body>
+			<!-- Principal conteneur -->
+			<div class="page-container">
+				
+				<!-- bloc-0 -->
+				<header class="bloc bgc-white l-bloc " id="bloc-0">
+					<div class="container bloc-sm">
+						<nav class="navbar row" aria-label="menu de navigation">
+							<div class="navbar-header" tabindex="-1">
+								<div class="keywords" style="visibility: hidden;font-size:1px;">Agence web, design, illustrations, design de site web, site web, web, internet, site internet, site, équipe</div>
+								<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.webp" alt="paris web design logo agence web meilleure agence" height="40"/></a>
+								<div class="keywords" style="visibility: hidden;font-size:1px;">Stratégie web, web design, lyon, internet, partenariat, aide, meilleur agence</div>
+								<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" role="complementary">
+									<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+								</button>
+							</div>
+							<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+								<ul class="site-navigation nav navbar-nav">
+									<li>
+										<a class="menu" href="index.html" tabindex="0">Accueil</a>
+									</li>
+									<li>
+										<a class="menu" href="page2.html" tabindex="0">page2 &gt;</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
 					</div>
-					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
+				</header>
+				<!-- bloc-0 END -->
+
+				<!--Main-->
+				<main aria-label="Contenu principal">
+					<!-- bloc-6 -->
+				<section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6" role="document">
+					<div class="container bloc-lg">
+						<div class="row" role="row">
+							<div class="col-sm-12">
+								<h1 class="text-center hero-bloc-text tc-white" role="cell" tabindex="0">
+									Parlons web design !
+								</h1>
+								<p class="text-center mg-lg tc-white tight-width-whitespace"  role="cell" tabindex="0">
+									Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+									Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+								</p>
+							</div>
+						</div>
 					</div>
-					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
+				</section>
+				<!-- bloc-6 END -->
+
+				<!-- bloc-7 -->
+				<form class="bloc bgc-white l-bloc" id="bloc-7" role="form">
+					<div class="container bloc-lg">
+						<div class="row" role="row">
+							<div class="col-sm-6">
+								<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+									<div class="form-group">
+										<label tabindex="0">
+											Nom
+										</label>
+										<input id="name" class="form-control" required role="cell" tabindex="0"/>
+									</div>
+									<div class="form-group">
+										<label tabindex="0">
+											Adresse email
+										</label>
+										<input id="email" class="form-control" type="email" required role="cell" tabindex="0"/>
+									</div>
+									<div class="form-group">
+										<label tabindex="0">
+											Comment nous avez-vous connu ?
+										</label>
+										<input class="form-control" type="email" required id="input_504" role="cell" tabindex="0"/>
+									</div>
+									<div class="form-group" role="cell">
+										<label tabindex="0">
+											Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+										</label><textarea id="message" class="form-control" rows="4" cols="50" required role="cell" tabindex="0"></textarea>
+									</div> 
+										<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" aria-pressed="false" tabindex="0">Envoyer</button>
+								</form>
+							</div>
+							<div class="col-sm-6" role="search" tabindex="0">
+								<p>
+									contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+								</p>
+							</div>
+						</div>
 					</div>
-					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
-					</button>
 				</form>
+				<!-- bloc-7 END -->
+
+					<!-- ScrollToTop Button -->
+					<section>
+						<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+					</section>
+					<!-- ScrollToTop Button END-->
+				</main>
+				<!--Main END-->
+
+				<!-- Footer - bloc-8 -->
+				<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+					<div class="container bloc-sm">
+						<div class="row">
+							<div class="col-sm-12">
+								<p class="text-center white" tabindex="0">
+									La chouette agence - Agence web basée à Lyon.<br>
+								</p>
+								<div class="row row-no-gutters social">
+									<div class="col-sm-3">
+										<div class="text-center">
+											<a class="social" href="index.html" title="Twitter"><span class="fa fa-twitter icon-md" tabindex="0"></span></a>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="text-center">
+											<a class="social" href="index.html" title="Facebook"><span class="fa fa-facebook icon-md" tabindex="0"></span></a>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="text-center">
+											<a class="social" href="index.html" title="Dribbble"><span class="fa fa-dribbble icon-md" tabindex="0"></span></a>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="text-center">
+											<a class="social" href="index.html" title="Instagram"><span class="fa fa-instagram icon-md" tabindex="0"></span></a>
+										</div>
+									</div>
+									<div class="keywords" style="visibility: hidden;">Contact, rendez-vous, écoute, illustrations, internet, site internet, site</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-4">
+										Partenaires
+											<ul>
+												<li><a class="a_footer" href="voiture.com" tabindex="0">voiture.com</a></li>
+												<li><a class="a_footer" href="pizza.com" tabindex="0">pizza.com</a></li>
+												<li><a class="a_footer" href="matoiture.com" tabindex="0">matoiture.com</a></li>
+												<li><a class="a_footer" href="immobilierseo.com" tabindex="0">immobilierseo.com</a></li>
+											</ul>		
+									</div>
+									<div class="col-sm-4">
+										Annuaires liste 1
+										<ul>
+											<li><a class="a_footer" href="annuaireagence.com" tabindex="0">annuaireagence.com</a></li>
+											<li><a class="a_footer" href="annuaireseo.com" tabindex="0">annuaireseo.com</a></li>
+											<li><a class="a_footer" href="annuairemarketing.com" tabindex="0">annuairemarketing.com</a></li>
+											<li><a class="a_footer" href="123seoture.com" tabindex="0">123seo.com</a></li>
+											<li><a class="a_footer" href="123site.com" tabindex="0">123site.com</a></li>
+											<li><a class="a_footer" href="annuairewordpress.com" tabindex="0">annuairewordpress.com</a></li>
+											<li><a class="a_footer" href="listeagence.com" tabindex="0">listeagence.com</a></li>
+											<li><a class="a_footer" href="meilleuresagencesparis.com" tabindex="0">meilleuresagencesparis.com</a></li>
+											<li><a class="a_footer" href="listeseo.com" tabindex="0">listeseo.com</a></li>
+										</ul>
+									</div>
+									<div class="col-sm-4">
+										Annuaires liste 2
+										<ul>
+											<li><a class="a_footer" href="betterseo.com" tabindex="0">betterseo.com</a></li>
+											<li><a class="a_footer" href="ameliorerseo.com" tabindex="0">ameliorerseo.com</a></li>
+											<li><a class="a_footer" href="seojuicelien.com" tabindex="0">seojuicelien.com</a></li>
+											<li><a class="a_footer" href="meilleursliens.com" tabindex="0">meilleursliens.com</a></li>
+											<li><a class="a_footer" href="liensagogo.com" tabindex="0">liensagogo.com</a></li>
+											<li><a class="a_footer" href="backlink.com" tabindex="0">backlink.com</a></li>
+											<li><a class="a_footer" href="linkjuiceannuaire.com" tabindex="0">linkjuiceannuaire.com</a></li>
+											<li><a class="a_footer" href="remontersurgoogle.com" tabindex="0">remontersurgoogle.com</a></li>
+											<li><a class="a_footer" href="vraiseofiable.com" tabindex="0">vraiseofiable.com</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+				<!-- Footer - bloc-8 END -->
+
 			</div>
-			<div class="col-sm-6">
-				<p>
-					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-7 END -->
-
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-<!-- ScrollToTop Button END-->
-
-
-<!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-	<div class="container bloc-sm">
-		<div class="row">
-			<div class="col-sm-12">
-				<p class="text-center white">
-					La chouette agence - Agence web basée à Lyon.<br>
-				</p>
-				<div class="row row-no-gutters social">
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- Footer - bloc-8 END -->
-
-</div>
-<!-- Principal conteneur END -->
-    
-
-</body>
+			<!-- Principal conteneur END -->
+		</body>
 </html>
