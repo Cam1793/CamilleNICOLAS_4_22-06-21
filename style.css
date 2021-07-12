@@ -1130,4 +1130,8 @@ h4 {
     .img_media{
         width: 90%;
     }
+
+    .form-group{
+        width: 100%;
+    }
 }
