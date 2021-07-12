@@ -370,6 +370,10 @@ a:hover {
     float: none;
 }
 
+.color-p{
+    color:#797676!important;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
